@@ -1,0 +1,47 @@
+/* bg-img */
+.custom-bg-img-1{
+  background-image: url("./content/sights-images/New_Zeland.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.custom-bg-img-2{
+  background-image: url("./content/sights-images/New_Zeland2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.custom-bg-img-3{
+  background-image: url("./content/sights-images/New_Zeland4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* bg-color */
+.custom-bg-img {
+  background-image: url("./content/sights-images/New_Zeland3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.custom-bg-orange {
+  background-color: rgb(232, 89, 78);
+}
+
+.custom-bg-light-green {
+  background-color: rgb(115, 175, 186);
+}
+
+.custom-bg-light-black {
+  background-color: rgb(17, 31, 42);
+}
+
+.custom-bg-light-grey {
+  background-color: rgb(232, 235, 241);
+}
+
+/* size */
