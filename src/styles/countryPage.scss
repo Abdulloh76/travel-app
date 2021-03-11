@@ -1,0 +1,41 @@
+.country-page {
+  .hidden {
+    display: none;
+  }
+
+  .header {
+    height: 3rem;
+
+    // background: black;
+  }
+
+  .promo {
+    height: 5rem;
+
+    background: url("https://www.theroadtrip.co.nz/wp-content/uploads/2019/04/picturesque-milford-sound.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .title {
+      
+      font-family: Metropolis, sans-serif;
+      color: white;
+      font-size: 29px;
+      font-weight: 900;
+      line-height: 32px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+
+  .nav-bar {
+    background: gray;
+  }
+
+  .footer {
+    height: 3rem;
+
+    // background: black;
+  }
+}

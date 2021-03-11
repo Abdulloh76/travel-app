@@ -1,9 +1,10 @@
 import React from 'react';
 import logo from './assets/logo.svg';
-import './styles/App.css';
+
+import { CountryPage } from './components/CountryPage'
 
 function App() {
-  return null
+  return <CountryPage />
 }
 
 export default App;
