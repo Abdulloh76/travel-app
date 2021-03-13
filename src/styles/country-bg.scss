@@ -1,0 +1,46 @@
+.country {
+  &-backgrounds {
+    & li {
+      height: 100vh;
+      z-index: -1;
+    }
+  }
+  &-bg {
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+  }
+
+
+  &-texts {
+    position: absolute;
+    bottom: 35vh;
+    width: 55vw;
+    & li {
+      text-align: left;
+      color: #fff;
+    }
+  }
+  &-info {
+
+  }
+
+
+  &-titles {
+    position: absolute;
+    top: 25vh;
+    width: 45vw;
+    font-size: 2.4rem;
+    line-height: 1em;
+    font-weight: bold;
+    & li {
+      text-align: left;
+      color: #fff;
+    }
+  }
+  &-title {
+  
+  }
+
+}
+

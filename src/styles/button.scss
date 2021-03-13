@@ -1,0 +1,10 @@
+.button {
+  position: absolute;
+  bottom: 20px;
+  &-prev {
+    left: 45%
+  }
+  &-next {
+    left: 55%
+  }
+}
