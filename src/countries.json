@@ -1,0 +1,34 @@
+[
+  {
+    "id": 0,
+    "name": "Australia",
+    "capital": "Canberra",
+    "bgSrc": "https://raw.githubusercontent.com/Abdulloh76/singolo-test/master/gallery/countries/australia_scene1.jpg",
+    "cardPic": "https://raw.githubusercontent.com/Abdulloh76/singolo-test/master/gallery/countries/australia_scene2.jpg",
+    "description": "Australia, officially the Commonwealth of Australia, is a sovereign country comprising the mainland of the Australian continent, the island of Tasmania, and numerous smaller islands. It is the largest country in Oceania and the world's sixth-largest country by total area."
+  },
+  {
+    "id": 1,
+    "name": "England",
+    "capital": "London",
+    "bgSrc": "https://raw.githubusercontent.com/Abdulloh76/singolo-test/master/gallery/countries/england_scene4.jpg",
+    "cardPic": "https://raw.githubusercontent.com/Abdulloh76/singolo-test/master/gallery/countries/england_scene2.jpg",
+    "description": "England is a country that is part of the United Kingdom. It shares land borders with Wales to its west and Scotland to its north. The Irish Sea lies northwest of England and the Celtic Sea to the southwest. England is separated from continental Europe by the North Sea to the east and the English Channel to the south"
+  },
+  {
+    "id": 2,
+    "name": "USA",
+    "capital": "Washington",
+    "bgSrc": "https://raw.githubusercontent.com/Abdulloh76/singolo-test/master/gallery/countries/usa_scene1.jpg",
+    "cardPic": "https://raw.githubusercontent.com/Abdulloh76/singolo-test/master/gallery/countries/usa_scene2.jpg",
+    "description": "The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s presence into the Pacific Ocean. Major Atlantic Coast cities are New York, a global finance and culture center, and capital Washington, DC. Midwestern metropolis Chicago is known for influential architecture and on the west coast, Los Angeles' Hollywood is famed for filmmaking"
+  },
+  {
+    "id": 3,
+    "name": "Uzbekistan",
+    "capital": "Tashkent",
+    "bgSrc": "https://raw.githubusercontent.com/Abdulloh76/singolo-test/master/gallery/countries/uz_scene3.jpg",
+    "cardPic": "https://raw.githubusercontent.com/Abdulloh76/singolo-test/master/gallery/countries/uz_scene4.jpg",
+    "description": "Uzbekistan is a Central Asian nation and former Soviet republic. It's known for its mosques, mausoleums and other sites linked to the Silk Road, the ancient trade route between China and the Mediterranean. Samarkand, a major city on the route, contains a landmark of Islamic architecture: the Registan, a plaza bordered by 3 ornate, mosaic-covered religious schools dating to the 15th and 17th centuries. "
+  }
+]
