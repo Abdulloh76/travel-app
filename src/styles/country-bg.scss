@@ -11,10 +11,11 @@
 }
 
 .country {
-
+  
   &-texts {
     width: 65vw;
-    height: fit-content;
+    height: 25vh;
+    // background-color: red;
     & li {
       text-align: left;
     }
@@ -22,10 +23,12 @@
   &-info {
 
   }
-
-
+  
+  
   &-titles {
     width: 45vw;
+    height: 15vh;
+    // background-color: green;
     font-size: 2.4rem;
     line-height: 1em;
     font-weight: bold;

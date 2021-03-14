@@ -7,6 +7,7 @@ import {
   ButtonNext,
 } from 'pure-react-carousel';
 import { WrapperForBgImg } from './WrapperForBgImg'
+import { CountryCard } from './CountryCard'
 import countries from '../countries.json';
 
 interface Props {}
@@ -15,10 +16,10 @@ export const CustomCarousel: React.FC<Props> = () => {
   
   return (
     <CarouselProvider
-      naturalSlideWidth={100}
-      naturalSlideHeight={24}
+      naturalSlideWidth={45}
+      naturalSlideHeight={30}
       totalSlides={countries.length}
-      orientation="vertical"
+      orientation="horizontal"
       className="asdsd"
     >
       <WrapperForBgImg countries={countries}>
@@ -43,6 +44,17 @@ export const CustomCarousel: React.FC<Props> = () => {
             );
           })}
         </Slider>
+        
+        <Slider className='country-cards'>
+          {countries.map((country, index) => {
+            return (
+              <Slide key={country.id} index={index} innerClassName="country-card">
+                <CountryCard  country={country}/>
+              </Slide>
+            );
+          })}
+        </Slider>
+
       </WrapperForBgImg>
 
       <ButtonBack className="button button-prev">Back</ButtonBack>
