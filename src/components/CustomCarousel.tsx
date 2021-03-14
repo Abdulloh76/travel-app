@@ -5,6 +5,7 @@ import {
   Slide,
   ButtonBack,
   ButtonNext,
+  DotGroup,
 } from 'pure-react-carousel';
 import { WrapperForBgImg } from './WrapperForBgImg'
 import { CountryCard } from './CountryCard'
@@ -56,7 +57,7 @@ export const CustomCarousel: React.FC<Props> = () => {
         </Slider>
 
       </WrapperForBgImg>
-
+      <DotGroup dotNumbers={true}/>
       <ButtonBack className="button button-prev">Back</ButtonBack>
       <ButtonNext className="button button-next">Next</ButtonNext>
     </CarouselProvider>
