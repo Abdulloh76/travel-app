@@ -1,7 +1,12 @@
 @import '~mdb-ui-kit/css/mdb.min.css';
 @import '~pure-react-carousel/dist/react-carousel.es.css';
-@import './App.css';
-@import './index.css';
-@import './country-bg.scss';
-@import './button.scss';
-@import './card.scss';
+
+html {
+  font-size: 10px;
+}
+
+
+@import './App.scss';
+@import './country-card.scss';
+@import './countries-carousel.scss';
+@import './buttons.scss';

@@ -17,18 +17,17 @@ export const CustomCarousel: React.FC<Props> = () => {
   
   return (
     <CarouselProvider
-      naturalSlideWidth={45}
-      naturalSlideHeight={30}
+      naturalSlideWidth={30}
+      naturalSlideHeight={40}
       totalSlides={countries.length}
       orientation="horizontal"
-      className="asdsd"
     >
       <WrapperForBgImg countries={countries}>
-        <Slider className='country-titles'>
+        <Slider className='country-title'>
           {countries.map((country, index) => {
             return (
               <Slide
-                className='country-title'
+                className='title'
                 key={country.id}
                 index={index}
               >{`${country.capital} is capital of ${country.name}`}</Slide>
@@ -36,17 +35,17 @@ export const CustomCarousel: React.FC<Props> = () => {
           })}
         </Slider>
 
-        <Slider className='country-texts'>
+        <Slider className='country-description'>
           {countries.map((country, index) => {
             return (
-              <Slide className='country-info' key={country.id} index={index}>
+              <Slide className='description' key={country.id} index={index}>
                 {country.description}
               </Slide>
             );
           })}
         </Slider>
         
-        <Slider className='country-cards'>
+        <Slider className='carousel__cards'>
           {countries.map((country, index) => {
             return (
               <Slide key={country.id} index={index} innerClassName="country-card">
@@ -58,8 +57,8 @@ export const CustomCarousel: React.FC<Props> = () => {
 
       </WrapperForBgImg>
       <DotGroup dotNumbers={true}/>
-      <ButtonBack className="button button-prev">Back</ButtonBack>
-      <ButtonNext className="button button-next">Next</ButtonNext>
+      <ButtonBack className="button button-prev">&lt;</ButtonBack>
+      <ButtonNext className="button button-next">&gt;</ButtonNext>
     </CarouselProvider>
   );
 };
