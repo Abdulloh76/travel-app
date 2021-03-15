@@ -55,10 +55,12 @@ export const CustomCarousel: React.FC<Props> = () => {
           })}
         </Slider>
 
+        <ButtonBack className="button button-prev">&#10094;</ButtonBack>
+        <ButtonNext className="button button-next">&#10095;</ButtonNext>
+        
+        <DotGroup dotNumbers={true}/>
       </WrapperForBgImg>
-      <DotGroup dotNumbers={true}/>
-      <ButtonBack className="button button-prev">&lt;</ButtonBack>
-      <ButtonNext className="button button-next">&gt;</ButtonNext>
+
     </CarouselProvider>
   );
 };
