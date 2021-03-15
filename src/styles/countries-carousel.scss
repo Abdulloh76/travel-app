@@ -6,6 +6,8 @@
     background-position: center;
     background-size: cover;
     transition: background-image 1s ease-in-out;
+    text-align: left;
+    color: #fff;
   }
 
   &__cards {
@@ -26,42 +28,40 @@
       width: 60vw;
     }
   }
-}
 
-.country {
-
-  &-title {
-    width: 45vw;
-    height: 15vh;
-    font-size: 3.2rem;
-    line-height: 1em;
-    font-weight: bold;
-    & li {
-      text-align: left;
+  &__titles {
+    width: 33vw;
+    
+    position: absolute;
+    left: 5%;
+    top: 29%;
+    
+    @media (max-width: 1024px) {
+      // width: 33vw;
     }
-    .title {
-      
+    @media (max-width: 768px) {
+      width: 60vw;
     }
-
-    @media (max-width: 1023px) {
-      
-    }
-    @media (max-width: 767px) {
-      
-    }
-  }
-
-  &-description {
-    width: 65vw;
-    height: 25vh;
-    & li {
-      text-align: left;
-    }
-    .description {
-
+    @media (max-width: 425px) {
+      // width: 45vw;
     }
   }
   
-}
+  &__descriptions {
+    width: 50vw;
 
-// h1 
+    position: absolute;
+    left: 5%;
+    top: 40%;
+    
+    @media (max-width: 1024px) {
+      // width: 33vw;
+    }
+    @media (max-width: 768px) {
+      width: 80vw;
+    }
+    @media (max-width: 425px) {
+      // width: 33vw;
+    }
+  }
+}

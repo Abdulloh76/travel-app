@@ -23,22 +23,22 @@ export const CustomCarousel: React.FC<Props> = () => {
       orientation="horizontal"
     >
       <WrapperForBgImg countries={countries}>
-        <Slider className='country-title'>
+        <Slider className='carousel__titles'>
           {countries.map((country, index) => {
             return (
               <Slide
-                className='title'
+                className='country-title'
                 key={country.id}
                 index={index}
-              >{`${country.capital} is capital of ${country.name}`}</Slide>
+              >{country.name}</Slide>
             );
           })}
         </Slider>
 
-        <Slider className='country-description'>
+        <Slider className='carousel__descriptions'>
           {countries.map((country, index) => {
             return (
-              <Slide className='description' key={country.id} index={index}>
+              <Slide className='country-description' key={country.id} index={index}>
                 {country.description}
               </Slide>
             );
