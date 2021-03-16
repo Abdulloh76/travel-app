@@ -11,7 +11,7 @@
       font-size: 4.5rem;
     }
     @media (max-width: 425px) {
-      font-size: 4rem;
+      font-size: 3.5rem;
     }
   }
 
@@ -20,7 +20,7 @@
     font-size: 1.6rem;
     line-height: 1.2em;
     @media (max-width: 768px) {
-      font-size: 1.4rem;
+      font-size: 1.35rem;
     }
   }
   
@@ -46,14 +46,15 @@
     margin: 0;
     
     @media (max-width: 425px) {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
+      line-height: 1em;
     }
   }
   
   &__stars {
     font-size: 1.4rem;
     @media (max-width: 425px) {
-      // font-size: 1.2rem;
+      font-size: 1.2rem;
     }    
   }
 

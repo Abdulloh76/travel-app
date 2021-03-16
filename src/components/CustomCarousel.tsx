@@ -39,7 +39,7 @@ export const CustomCarousel: React.FC<Props> = () => {
           {countries.map((country, index) => {
             return (
               <Slide className='country-description' key={country.id} index={index}>
-                {country.description}
+                {country.description.split(' ').slice(0, 35).join(' ') + ' ...'}
               </Slide>
             );
           })}

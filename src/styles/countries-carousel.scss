@@ -18,14 +18,18 @@
     
     @media (max-width: 1024px) {
       width: 35vw;
+      top: 30%;
       left: 60%;
     }
     @media (max-width: 768px) {
       width: 45vw;
-      left: 40%;
+      left: 30%;
+      top: 40%;
     }
     @media (max-width: 425px) {
       width: 60vw;
+      left: 22%;
+      top: 46%;
     }
   }
 
@@ -41,14 +45,18 @@
     }
     @media (max-width: 768px) {
       width: 60vw;
+      top: 20%;
+      left: 10%;
     }
     @media (max-width: 425px) {
-      // width: 45vw;
+      left: 14%;
+      top: 15%;
     }
   }
   
   &__descriptions {
     width: 50vw;
+    text-align: justify;
 
     position: absolute;
     left: 5%;
@@ -58,10 +66,13 @@
       // width: 33vw;
     }
     @media (max-width: 768px) {
-      width: 80vw;
+      width: 75vw;
+      top: 26%;
+      left: 10%;
     }
     @media (max-width: 425px) {
-      // width: 33vw;
+      left: 14%;
+      top: 21%;
     }
   }
 
